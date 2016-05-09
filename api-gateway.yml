@@ -19,6 +19,7 @@ zuul:
   routes:
     user-webservice: /api/user/**
     task-webservice: /api/task/**
+    catalog-ops: /api/catalog/**
     web-portal: /**
     user: 
       path: /api/loggedinuser/**
